@@ -1,0 +1,152 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --dark-slate-grey: #2f4f4f;
+  --dark-green: #1c3030;
+  --heading-margin-bottom: 10px;
+  --page-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color:#aaaaaa;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--page-font);
+  margin-bottom: var(--heading-margin-bottom);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+header {
+  padding:30px;
+  text-align:left;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  background-color: var(--dark-slate-grey);
+  justify-content: flex-end;
+}
+
+nav a {
+  margin:10px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--dark-green);
+  color: var(--black)
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+p {
+  font-weight: 700;
+  font-family: var(--page-font);
+  font-size: .9rem;
+}
+
+section {
+
+}
+
+.nav {
+  font-family: var(--page-font);
+  font-weight: 700;
+}
+
+.photo {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--black);
+}
+
+.flex-content {
+  flex: 1;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.about-section {
+  border: 5px solid #000000;
+  padding:10px;
+  width:300px;
+/*
+  position:absolute;
+  left: 0;
+ */
+}
+
+.project-1 {
+  /* border-style: solid;
+  border-width: 5px;
+  border-radius: var(--border-radius); */
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.project-2 {
+  /* border-style: solid;
+  border-width: 5px;
+  border-radius: var(--border-radius); */
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.project-3 {
+  /* border-style: solid;
+  border-width: 5px;
+  border-radius: var(--border-radius); */
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.project1image {
+max-width: 500px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  /* might need to remove padding */
+  padding: 20px;
+  text-align: center;
+  background: var(--dark-slate-grey);
+  color: var(--white);
+  margin-top: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+}
