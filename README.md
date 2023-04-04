@@ -2,12 +2,8 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This Portfolio Page was created as an area for me to display completed programming applications to prospective employers who need to see a sample of the work I can create to determine wether to offer me an interview or position of employment.  It will give a picture and professional background to help the reader get to know a little about me before viewing the work I have completed.  At the end of the page you will find links to different methods of contact.  By building this page from scratch, the process really helped me get a better grasp of using flex-boxes to arrange the objects inside a container on the page in a way that presents itself well on both computers and smaller-screen devices such as tablet or mobile.  
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents (Optional)
 
@@ -20,11 +16,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-This page is used to get an introduction to the developer and sample some of the projects completed during the coding bootcamp.
+This page is designed for a visitor to get an introduction to the developer and sample some of the projects completed during the coding bootcamp.  The Nav buttons will take the user to the correct area of the page, the images will link to the associated samples/projects, and the contact icons will link to the associated accounts.  This page will wrap to fit the screen as the width gets smaller between desktop, tablet, and mobile displays.
 
-```md
 ![Portfolio Screenshot](assets/images/Portfolio-Screenshot1.png)
-```
+
 
 ## Credits
 
@@ -34,6 +29,7 @@ I used a README template found on coding-boot-camp.github.io at: https://coding-
 
 I used css-tricks.com's article titled "A Complete Guide to Flexbox" by Chris Coyier to help with my flexbox CSS.  The article is found here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
 
+The Contact Icons for Github, Linkedin, and Email were downloaded from https://www.flaticon.com/
 
 
 ## License
