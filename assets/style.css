@@ -1,19 +1,66 @@
 :root {
   --white: #fff;
   --black: #000;
-  --dark-slate-grey: #2f4f4f;
+  --dark-slate-green: #2f4f4f;
+  --light-neutral: #b9b9b9;
   --dark-green: #1c3030;
-  --heading-margin-bottom: 10px;
+  --heading-margin-bottom: 5px;
   --page-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+* {
+  font-family: var(--page-font);
+}
+
 body {
-  font-size: 20px;
+  font-family: var(--page-font);
+  margin: 0;
+  background-color: var(--light-neutral);
+}
+
+header {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background-color:#aaaaaa;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 60px;
+  text-align: left;
+  background-color: var(--dark-slate-green);
+  color: var(--light-neutral);
+  margin: 0px;
+border-bottom: 5px solid var(--dark-green);
+}
+
+nav {
+  display: flex;
+  background-color: var(--dark-slate-green);
+  justify-content: flex-end;
+  padding-right: 3em;
+  
+}
+
+nav a {
+  padding: 10px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--dark-green);
+  color: var(--light-neutral)
+}
+
+main {
+  margin-top: 5px;
+}
+
+/* changed flexbox to a div container */
+aside {
+  
+}
+
+section {
+  /* changed flexbox to a div container */
+  padding: 25px;
 }
 
 h1,
@@ -24,129 +71,83 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 h2 {
   font-size: 1.75rem;
+  color: var(--dark-green);
+  display:flex;
 }
 
 h3 {
-  font-size: 1.5rem;
-}
-
-header {
-  padding:30px;
-  text-align:left;
-  background-color: var(--dark-slate-grey);
-  color: var(--white);
-}
-
-nav {
-  display: flex;
-  background-color: var(--dark-slate-grey);
-  justify-content: flex-end;
-}
-
-nav a {
-  margin:10px;
-  color: var(--black);
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: var(--dark-green);
-  color: var(--black)
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5px;
+  font-size: 1.25rem;
+  margin-top: 0;
 }
 
 p {
-  font-weight: 700;
-  font-family: var(--page-font);
-  font-size: .9rem;
+  color: var(--dark-green);
 }
 
-section {
-
+footer {
+  background-color: var(--dark-slate-green);
+  padding: 40px;
+}
+/* flex container around About Me section */
+#about-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: .625em;
+  border-bottom: 5px solid var(--dark-green);
 }
 
-.nav {
-  font-family: var(--page-font);
-  font-weight: 700;
+#about-heading {
+  display: flex;
+  align-items: center;
+}
+
+.about-item-1 {
+  margin: 3% 0 0 3%;
+}
+
+.about-item-2 {
+  margin-left: 5%;
+  ;
+  max-width: 70%;
+}
+
+/* flex container around Projects section */
+
+#project-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1em;
+}
+
+#project-heading {
+  display: flex;
+  align-items: center;
 }
 
 .photo {
   max-width: 200px;
   border-radius: 50%;
-  border: 3px solid var(--black);
+  border: 3px solid var(--dark-green);
+  margin: auto 0;
 }
 
-.flex-content {
-  flex: 1;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+img#project1image {
+  flex-grow: 1;
 }
 
-.about-section {
-  border: 5px solid #000000;
-  padding:10px;
-  width:300px;
-/*
-  position:absolute;
-  left: 0;
- */
+img#project2image {
+  flex-grow: 1;
 }
 
-.project-1 {
-  /* border-style: solid;
-  border-width: 5px;
-  border-radius: var(--border-radius); */
-  padding: 10px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
-}
-
-.project-2 {
-  /* border-style: solid;
-  border-width: 5px;
-  border-radius: var(--border-radius); */
-  padding: 10px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
-}
-
-.project-3 {
-  /* border-style: solid;
-  border-width: 5px;
-  border-radius: var(--border-radius); */
-  padding: 10px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
-}
-
-.project1image {
-max-width: 500px;
-}
-
-footer {
-  width: 100%;
-  bottom: 0;
-  /* might need to remove padding */
-  padding: 20px;
-  text-align: center;
-  background: var(--dark-slate-grey);
-  color: var(--white);
-  margin-top: auto;
-}
-
-
-
-@media screen and (max-width: 768px) {
-
+img#project3image {
+  flex-grow: 1;
 }
