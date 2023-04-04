@@ -18,6 +18,11 @@ body {
   background-color: var(--light-neutral);
 }
 
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+
 header {
   display: flex;
   flex-direction:column;
@@ -27,7 +32,7 @@ header {
   background-color: var(--dark-slate-green);
   color: var(--light-neutral);
   margin: 0px;
-border-bottom: 5px solid var(--dark-green);
+  border-bottom: .3em solid var(--dark-green);
 }
 
 nav {
@@ -81,8 +86,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
-  margin-top: 0;
+  font-size: 1.75rem;
+  color: var(--light-neutral);
+  display: flex;
+  margin-block-start: 0 !important;
 }
 
 p {
@@ -91,7 +98,7 @@ p {
 
 footer {
   background-color: var(--dark-slate-green);
-  padding: 40px;
+  padding: .1em;
 }
 /* flex container around About Me section */
 #about-section-container {
@@ -100,12 +107,13 @@ footer {
   flex-direction: row;
   justify-content: center;
   padding-bottom: .625em;
-  border-bottom: 5px solid var(--dark-green);
+  border-bottom: .3em solid var(--dark-green);
 }
 
 #about-heading {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-left:.5em;
 }
 
 .about-item-1 {
@@ -130,7 +138,29 @@ footer {
 
 #project-heading {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin: .75em;
+}
+
+#contact-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: .5em;
+}
+
+#contact-details {
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-self: center;
+    margin: auto;
+}
+
+.contact-icons {
+padding: 0 1em 1em 1em ;
+margin: auto;
 }
 
 .photo {
@@ -140,14 +170,48 @@ footer {
   margin: auto 0;
 }
 
-img#project1image {
-  flex-grow: 1;
+.project-1,
+.project-2,
+.project-3 {
+  position: relative;
 }
 
-img#project2image {
-  flex-grow: 1;
+.text-block,
+.text-block2,
+.text-block3 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--dark-green);
+  color: var(--light-neutral);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-img#project3image {
-  flex-grow: 1;
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  img#project1image,
+  img#project2image,
+  img#project3image {
+      max-width: 85%;
+      }
 }
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  img#project1image,
+    img#project2image,
+    img#project3image {
+      max-width: 85%;
+    }
+  }
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  img#project1image,
+    img#project2image,
+    img#project3image {
+      max-width: 85%;
+    }
+  }
