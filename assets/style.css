@@ -33,7 +33,6 @@ header {
   background-color: var(--dark-slate-green);
   color: var(--light-neutral);
   margin: 0px;
-  /* border-bottom: .3em solid var(--dark-green); */
 }
 
 nav {
