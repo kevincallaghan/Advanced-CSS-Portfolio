@@ -20,13 +20,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This page is used to get an introduction to the developer and sample some of the projects completed during the coding bootcamp.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+```md
+![Portfolio Screenshot](assets/images/Portfolio-Screenshot1.png)
+```
 
 ## Credits
 
