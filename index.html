@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="assets/reset.css" /> -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
   <title>Advanced CSS Portfolio</title>
 </head>
 
 <body>
   <header>
     <h1>Kevin Callaghan</h1>
-    <p>
-      Add Text Here
-    </p>
+    <!-- <h3>
+      Web Developer
+    </h3> -->
+  
+  <nav>
+    <a href="#about" class="nav">About Me</a>
+    <a href="#projects" class="nav">My Projects</a>
+    <a href="#contact" class="nav">Contact Me</a>
+  </nav>
   </header>
 
-  <nav>
-      <a href="#about" class="nav">About Me</a>
-      <a href="projects" class="nav">My Projects</a>
-      <a href="contact" class="nav">Contact Me</a>
-  </nav>
-
   <main>
-      <div class="flex-content">
-        <section class="about-section">
-            <img class="photo" src="assets/images/KevinC2.jpg">
-            <h2>About Me</h2>
-            <p>
-              In college I chose to persue a career in sales, leading me to graduate with a Bachelor's in Marketing and accepting a job as an Account Manager / Sales Representative.
-              <br><br>
-              After dipping my feet into the world of sales for a year, I was given an opportunity to shift into the web development industry to a position where I provided client services and technical support to high profile law enforcement and government agencies.  During my time in this position I gained nearly a decade of experience in training clients to use custom web applications and I served as the middle-man between clients and the programming team to customize and create applications that met the client needs.
-              <br><br>
-              In 2023 I made the decision to advance my career and fully dive into the web development industry and enrolled in the University of Texas Coding Bootcamp.  
-            </p>
-          </section>
-      
-        <section class="project-1">
-            <h2>Project 1</h2>
-            <img class="project1image" src="assets/images/placeholder-1.jpg">
-            <p>
-              This is the descriptive text for project 1.
-            </p>
-        </section>
-        <section class="project-2">
-          <h2>Project 2</h2>
-          <img class="project1image" src="assets/images/placeholder-1.jpg">
-          <p>
-            This is the descriptive text for project 2.
-          </p>
-        </section>
-        <section class="project-3">
-          <h2>Project 3</h2>
-          <img class="project1image" src="assets/images/placeholder-1.jpg">
-          <p>
-            This is the descriptive text for project 3.
-          </p>
-        </section>
+    <div id="about-heading">
+      <h2>About Me</h2>
+    <div id="about-section-container">
+      <div class="about-item-1"><img class="photo" src="assets/images/KevinC2.jpg">
       </div>
+      <div class="about-item-2">
+        <p>
+          After earning a Bachelor's in Marketing and
+          heading into the world of sales, I was given an opportunity to shift into the web development industry with a position
+          where I provided client services and technical support to high profile law enforcement and government
+          agencies. 
+          <br><br>
+          During my time in this position I gained nearly a decade of experience in training clients to use
+          custom web applications and I served as the middle-man between clients and the programming team to customize
+          and create applications that met the client needs.
+          <br><br>
+          In 2023 I made the decision to advance my career and fully dive into the web development industry and enrolled
+          in the
+          University of Texas Coding Bootcamp.
+        </p>
+      </div>
+    </div>
+    </div>
+    
+    
+    <div id="project-heading"><h2>Projects</h2>
+    <div id="project-section-container">
+      <div id="projects" class="project-1">
+        <h2>Project 1</h2>
+        <img id="project1image" src="assets/images/placeholder-1.jpg">
+        <p>
+          This is the descriptive text for project 1.
+        </p>
+      </div>
+      <div class="project-2">
+        <h2>Project 2</h2>
+        <img class="project2image" src="assets/images/placeholder-2.jpg">
+        <p>
+          This is the descriptive text for project 2.
+        </p>
+      </div>
+      <div class="project-3">
+        <h2>Project 3</h2>
+        <img class="project3image" src="assets/images/placeholder-3.jpg">
+        <p>
+          This is the descriptive text for project 3.
+        </p>
+      </div>
+    </div>
+    </div>
 
   </main>
 
-  <footer>
+  <footer id="contact">
 
   </footer>
+
 </body>
+
 </html>
