@@ -210,11 +210,23 @@ margin: auto;
   img#project3image {
       max-width: 85%;
       }
+
+  .text-block,
+  .text-block2,
+  .text-block3 {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    background-color: var(--dark-green);
+    color: var(--light-neutral);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* Large smartphones */
 @media screen and (max-width: 768px) {
-  img#project1image,
+    img#project1image,
     img#project2image,
     img#project3image {
       max-width: 85%;
@@ -224,8 +236,8 @@ margin: auto;
 /* Small smartphones */
 @media screen and (max-width: 576px) {
   img#project1image,
-    img#project2image,
-    img#project3image {
+  img#project2image,
+  img#project3image {
       max-width: 85%;
     }
   }

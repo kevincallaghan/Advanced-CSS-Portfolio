@@ -13,14 +13,10 @@ Provide a short description explaining the what, why, and how of your project. U
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
@@ -36,12 +32,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 For the text-overlay on the Project Images, I used CSS from w3schools.com.  The CSS was found on the "How To - Text Blocks Over Image" page: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp 
 
+I used a README template found on coding-boot-camp.github.io at: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide 
+
+I used css-tricks.com's article titled "A Complete Guide to Flexbox" by Chris Coyier to help with my flexbox CSS.  The article is found here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+
 
 
 ## License
 
 Please refer to the LICENSE document in the Repository for License information.
-
-## Features
-
-If your project has a lot of features, list them here.
