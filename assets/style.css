@@ -177,13 +177,17 @@ margin: auto;
 
 .project-1,
 .project-2,
-.project-3 {
+.project-3,
+.project-4,
+.project-5 {
   position: relative;
 }
 
 .text-block,
 .text-block2,
-.text-block3 {
+.text-block3,
+.text-block4,
+.text-block5 {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -204,13 +208,17 @@ margin: auto;
 @media screen and (max-width: 992px) {
   img#project1image,
   img#project2image,
-  img#project3image {
+  img#project3image,
+  img#project4image,
+  img#project5image {
       max-width: 85%;
       }
 
   .text-block,
   .text-block2,
-  .text-block3 {
+  .text-block3,
+  .text-block4,
+  .text-block5 {
     position: absolute;
     top: 30px;
     right: 150px;
@@ -225,7 +233,9 @@ margin: auto;
 @media screen and (max-width: 768px) {
     img#project1image,
     img#project2image,
-    img#project3image {
+    img#project3image,
+    img#project4image,
+    img#project5image {
       max-width: 85%;
     }
   }
@@ -234,7 +244,9 @@ margin: auto;
 @media screen and (max-width: 576px) {
   img#project1image,
   img#project2image,
-  img#project3image {
+  img#project3image,
+  img#project4image,
+  img#project5image {
       max-width: 85%;
     }
   }
