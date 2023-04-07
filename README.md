@@ -16,7 +16,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-This page is designed for a visitor to get an introduction to the developer and sample some of the projects completed during the coding bootcamp.  The Nav buttons will take the user to the correct area of the page, the images will link to the associated samples/projects, and the contact icons will link to the associated accounts.  This page will wrap to fit the screen as the width gets smaller between desktop, tablet, and mobile displays.
+This page is designed for a visitor to get an introduction to the developer and sample some of the projects completed during the coding bootcamp.  The Nav buttons will take the user to the correct area of the page, the images will link to the associated samples/projects, and the contact icons will link to the associated accounts.  This page will wrap to fit the screen as the width gets smaller between desktop, tablet, and mobile displays.  Click here to visit the deployed page: https://kevincallaghan.github.io/Advanced-CSS-Portfolio/ 
 
 ![Portfolio Screenshot](assets/images/Portfolio-Screenshot1.png)
 
